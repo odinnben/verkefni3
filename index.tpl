@@ -3,7 +3,7 @@
 <head>
 	<title>Fréttasíðan mín</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	% include("header.tpl")
@@ -11,7 +11,7 @@
 	<section>
 		<div class="oki">
 			<h2>{{frettir[0]['Header']}}</h2>
-			<img src="/stactic/{{frettir[0]['Image']}}">
+			<img src="/myndir/{{frettir[0]['Image']}}">
 		</div>
 		<div class="frettir">
 			<ul>
