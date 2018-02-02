@@ -3,17 +3,17 @@
 <head>
 	<title>{{Header}}</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
 	% include("header.tpl")
 
 	<section>
-		<div class="col1">
+		<div class="oki">
 			<h2>{{Header}}</h2>
-			<img src="/myndir/img/{{Image}}">
+			<img src="/myndir/{{Image}}">
 		</div>
-		<div class="col2">
+		<div class="frettir">
 			<p>{{Content}}</p>
 			<p>{{Reporter}}</p>
 			<br>
