@@ -53,8 +53,10 @@ def kt(kennitala):
     return template('kt', kennitala=kennitala)
 
 @error(404)
+@error(500)
 def error404(error):
     return '<h1>Síðan sem þú baðst um er ekki til...</h1>'
+
 
 @route('/myndir/<filename>')
 def server_static(filename):
