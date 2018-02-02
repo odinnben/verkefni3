@@ -11,7 +11,7 @@
 	<section>
 		<div class="col1">
 			<h2>{{Header}}</h2>
-			<img src="/static/img/{{Image}}">
+			<img src="/myndir/img/{{Image}}">
 		</div>
 		<div class="col2">
 			<p>{{Content}}</p>
